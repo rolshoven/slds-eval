@@ -1,0 +1,19 @@
+[project]
+name = "slds-eval"
+version = "0.1.0"
+description = "Code for evaluating your models on the headnote generation task in SLDS"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Emoji is not used by us, but by ifbench. Unfortunately the code would not execute without this dependency.
+    "emoji>=2.15.0",
+    "lighteval[multilingual]>=0.11.0",
+    "litellm[caching]>=1.79.0",
+    "python-dotenv>=1.2.1",
+    "typer>=0.20.0",
+]
+
+[tool.uv.sources]
+lighteval = { git = "https://github.com/huggingface/lighteval" }
+
+

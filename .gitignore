@@ -1,0 +1,5 @@
+.env
+.venv
+.litellm_cache
+results
+__pycache__
