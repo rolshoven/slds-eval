@@ -37,7 +37,7 @@ This will by default use the `openrouter/openai/gpt-4o` model, but you can speci
 
 ### Evaluating Fine-Tuned Models
 
-To evaluate on of our (or your own) fine-tuned models, you first need to deploy it somewhere. We used [vLLM](https://github.com/vllm-project/vllm) to serve our fine-tuned models locally. You can do the same by installing the `vLLM` pip package and then running something like this:
+To evaluate one of our (or your own) fine-tuned models, you first need to deploy it somewhere. We used [vLLM](https://github.com/vllm-project/vllm) to serve our fine-tuned models locally. You can do the same by installing the `vLLM` pip package and then running something like this:
 
 ```bash
 python -m vllm.entrypoints.openai.api_server \
