@@ -74,13 +74,29 @@ In the above case, try to run the following command first: `uv pip install pip`.
 
 # References
 
-If you use SLDS, please cite our preprint:
+If you use SLDS, please cite our paper:
 
 ```bibtex
-@article{rolshoven2024unlocking,
-  title={Unlocking legal knowledge: A multilingual dataset for judicial summarization in Switzerland},
-  author={Rolshoven, Luca and Rasiah, Vishvaksenan and Bose, Srinanda Br{\"u}gger and Hostettler, Sarah and Burkhalter, Lara and St{\"u}rmer, Matthias and Niklaus, Joel},
-  journal={arXiv preprint arXiv:2410.13456},
-  year={2024}
+@inproceedings{rolshoven-etal-2025-unlocking,
+    title = "Unlocking Legal Knowledge: A Multilingual Dataset for Judicial Summarization in {S}witzerland",
+    author = {Rolshoven, Luca  and
+      Rasiah, Vishvaksenan  and
+      Bose, Srinanda Br{\"u}gger  and
+      Hostettler, Sarah  and
+      Burkhalter, Lara  and
+      St{\"u}rmer, Matthias  and
+      Niklaus, Joel},
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.832/",
+    pages = "15382--15411",
+    ISBN = "979-8-89176-335-7",
 }
 ```
